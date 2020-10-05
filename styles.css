@@ -361,3 +361,6 @@ iframe {
 .resources-button:hover{
     opacity: 0.8;
 }
+.resources-text>ol>li{
+    text-indent: 1em;
+}
