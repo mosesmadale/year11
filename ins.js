@@ -17,6 +17,7 @@ function clearAllMenu() {
 $(".nav-item:nth-child(1)").click(function() {
     currentPage = 1;
     $("#page").attr("src", "homework.html");
+    setHomework();
 });
 $(".nav-item:nth-child(2)").click(function() {
     currentPage = 2;
@@ -120,7 +121,9 @@ let art = [];
 function setHomework() {
     switch (name.value) {
         case "moses":
-            console.log($("#page").contents().find(".homework-nav-list"));
+            console.log(
+                $("#page").contents().find("body").contents().find(".homework-nav-list")
+            );
             moses.forEach((e) => {
                 $("#page")
                     .contents()

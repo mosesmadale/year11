@@ -317,3 +317,30 @@ iframe {
     color:black;
     margin:10px 0px;
 }
+
+.resources-title{
+    font-weight:500;
+    font-size: 35px;
+    box-shadow: 0px 24px 1px -23px rgb(75, 74, 74);
+}
+.resources-text{
+    font-weight: 50;
+    font-size: 20px;
+}
+
+.resources-video{
+    width: 90%;
+    border:solid rgba(0, 0, 0, 0.342) 5px;
+    margin:20px;
+}
+.three-videos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.resources-sub-title{
+    font-weight:500;
+    font-size: 30px;
+    box-shadow: 0px 24px 1px -23px rgb(138, 135, 135);
+    margin-top: 20px;
+}
