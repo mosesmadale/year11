@@ -41,6 +41,8 @@ $("#next").mouseup(function() {
     $(this).css("border-bottom", "solid rgb(1, 1, 78) 6px");
 });
 
+
+
 $("#next").click(function() {
     $(".popup").attr("class", "hide");
     $(".overlay").attr("class", "hide");
@@ -335,3 +337,5 @@ function setHomeworks() {
 }
 
 /*_____________HUGE LESSON HOMEWORK SWITCH STATEMENT__________________________________*/
+
+
