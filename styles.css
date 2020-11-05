@@ -321,7 +321,8 @@ iframe {
 .resources-title{
     font-weight:500;
     font-size: 35px;
-    box-shadow: 0px 24px 1px -23px rgb(75, 74, 74);
+    box-shadow: 0px 24px 0px -22px rgba(255, 145, 0, 0.589);
+    padding-bottom: 5px;
 }
 .resources-text{
     font-weight: 50;
@@ -491,8 +492,6 @@ div.fact-file-data{
 .quiz-title:before{
     content: 'Quizes on this Topic';
 }
-body{
-}
 
 .pdf-s-container{
     width: 100%;
@@ -501,6 +500,8 @@ body{
 .pdf-s{
     display: grid;
     grid-template-rows:repeat(5, 1fr);
+    background-color: rgb(250, 182, 104);
+    padding: 20px;
 }
 
 .pdf-s:hover{
@@ -515,6 +516,7 @@ body{
     background-image: url('pdf 2.png');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     grid-row: 1/5;
 }
 .pdf-s-title{
